@@ -1,0 +1,12 @@
+[package]
+name = "oauth2-rs-examples"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+oauth2 = { version = "4.3.0", default-features = false }
+thiserror = "1.0.37"
+curl = "0.4.0"
+http = "0.2"
